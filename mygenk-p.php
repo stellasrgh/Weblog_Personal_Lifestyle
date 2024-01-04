@@ -12,7 +12,7 @@
                         <i class="far fa-calendar-alt"></i> NOV 02,2023</a>
                 </li>
                 <li class="mx-2">
-                    <a href="#">
+                    <a href="form_like_mygenk.php">
                         <i class="far fa-thumbs-up"></i> 0 Likes</a>
                 </li>
                 <li>

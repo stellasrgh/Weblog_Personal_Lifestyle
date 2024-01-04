@@ -42,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <li class="breadcrumb-item">
             <a href="index.php">Home</a>
         </li>
-        <li class="breadcrumb-item active">Comment Page</li>
+        <li class="breadcrumb-item active">Like Page</li>
     </ol>
 
     <!--//banner-->
@@ -86,53 +86,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             aute irudre dolor in elit sed uta labore dolore reprehender</p>
                         <a href="single.html" class="btn btn-primary read-m">Read More</a>
                     </div> -->
-                    <?php include "huddle-p.php"?>
+                    <?php include "jayanta-p.php" ?>
 
                     <div class="comment-top">
-                        <h4>Comments</h4>
+                        <div class="comment-top">
+                            <h4>Like us</h4>
+                            <div class="comment-bottom">
+                                <form action="action_insert_like_j.php" method="post" enctype="multipart/form-data">
+                                    <input class="form-control" type="text" name="name" placeholder="Name" required>
+                                    <!-- fungsi REQUIRED adlh agar inputan di kolom harus diisi. Jika tdk maka akan muncul tulisan PLEASE FILL OUT THIS FILED -->
+                                    <!-- REQUIRED boleh pakai ="" atau cukup REQUIRED saja -->
+
+                                    <button type="submit" class="btn btn-primary submit mt-3">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+
+
+                      
+                    </div>
+                    <h4 class="mt-4">Like</h4>
+
                         <?php include "connection.php";
                         // comment adalah nama tabel di database
-                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM comment_huddle");
+                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM like_jayanta LIMIT 7");
                         while ($c = mysqli_fetch_object($tampil_comment)) :
                         ?>
-
-                            <div class="media">
-                                <img src="foto_komen/<?php echo $c->photo ?>" alt="" class="img-fluid" width="90px" style="height: 90px;" />
-                                <div class="media-body">
-                                    <h5 class="mt-0"> <?php echo $c->name ?></h5>
-                                    <p> <?php echo $c->message ?></p>
-                                    <div class="media mt-3">
-                                        <a class="d-flex pr-3" href="#">
-                                            <img src="images/t2.jpg" alt="" class="img-fluid" />
-                                        </a>
-                                        <div class="media-body">
-                                            <h5 class="mt-0">Richard Spark</h5>
-                                            <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac cursus eros.
-                                                Cras a ornare elit.</p>
-                                            <!-- reply message -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <p> <?php echo $c->name ?></p>
+                            
                         <?php endwhile ?>
-                    </div>
-                    <div class="comment-top">
-                        <h4>Leave a Comment</h4>
-                        <div class="comment-bottom">
-                            <form action="action_insert_comment_huddle.php" method="post" enctype="multipart/form-data">
-                                <input class="form-control" type="text" name="name" placeholder="Name" required>
-                                <!-- fungsi REQUIRED adlh agar inputan di kolom harus diisi. Jika tdk maka akan muncul tulisan PLEASE FILL OUT THIS FILED -->
-                                <!-- REQUIRED boleh pakai ="" atau cukup REQUIRED saja -->
-                                <input class="form-control" type="email" name="email" placeholder="Email" required="">
-
-                                <input class="form-control" type="text" name="subject" placeholder="Subject" required="">
-
-                                <textarea class="form-control" name="message" placeholder="Message..." required=""></textarea>
-                                <input type="file" class="form-control" name="photo" placeholder="Photo..." required="">
-                                <button type="submit" class="btn btn-primary submit mt-3">Submit</button>
-                            </form>
-                        </div>
-                    </div>
                 </div>
 
                 <!--//left-->

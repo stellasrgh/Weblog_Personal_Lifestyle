@@ -86,13 +86,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             aute irudre dolor in elit sed uta labore dolore reprehender</p>
                         <a href="single.html" class="btn btn-primary read-m">Read More</a>
                     </div> -->
-                    <?php include "huddle-p.php"?>
+                    <?php include "cafe-p.php"?>
 
                     <div class="comment-top">
                         <h4>Comments</h4>
                         <?php include "connection.php";
                         // comment adalah nama tabel di database
-                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM comment_huddle");
+                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM comment_ganaa");
                         while ($c = mysqli_fetch_object($tampil_comment)) :
                         ?>
 
@@ -119,7 +119,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="comment-top">
                         <h4>Leave a Comment</h4>
                         <div class="comment-bottom">
-                            <form action="action_insert_comment_huddle.php" method="post" enctype="multipart/form-data">
+                            <form action="action_insert_comment_c.php" method="post" enctype="multipart/form-data">
                                 <input class="form-control" type="text" name="name" placeholder="Name" required>
                                 <!-- fungsi REQUIRED adlh agar inputan di kolom harus diisi. Jika tdk maka akan muncul tulisan PLEASE FILL OUT THIS FILED -->
                                 <!-- REQUIRED boleh pakai ="" atau cukup REQUIRED saja -->

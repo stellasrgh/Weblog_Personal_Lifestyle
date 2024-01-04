@@ -12,11 +12,11 @@
                         <i class="far fa-calendar-alt"></i> OCT 30,2023</a>
                 </li>
                 <li class="mx-2">
-                    <a href="#">
+                    <a href="form_like_peter.php">
                         <i class="far fa-thumbs-up"></i> 0 Likes</a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="form_comment_peter.php">
                         <i class="far fa-comment"></i> 0 Comments</a>
                 </li>
 

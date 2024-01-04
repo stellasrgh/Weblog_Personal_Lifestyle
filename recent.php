@@ -81,7 +81,7 @@
 								<div class="col-md-7 blog-grid-right">
 
 									<h5>
-										<a href="single.html">Last meal in office's cafe L26. </a>
+										<a href="cafe.php">Last meal in office's cafe L26. </a>
 									</h5>
 									<div class="sub-meta">
 										<span>
@@ -93,12 +93,12 @@
 							<div class="blog-grids row mb-3">
 								<div class="col-md-5 blog-grid-left">
 									<a href="single.html">
-										<img src="images/8.jpg" class="img-fluid" alt="">
+										<img src="images/Ganaa1.png" class="img-fluid" alt="">
 									</a>
 								</div>
 								<div class="col-md-7 blog-grid-right">
 									<h5>
-										<a href="single.html"> Packing for good (?) </a>
+										<a href="ganaa.php"> Packing for good (?) </a>
 									</h5>
 									<div class="sub-meta">
 										<span>

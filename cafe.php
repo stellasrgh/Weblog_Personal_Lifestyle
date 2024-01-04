@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<i class="far fa-thumbs-up"></i> 0 Likes</a>
 									</li>
 									<li>
-										<a href="#">
+										<a href="form_comment_cafe.php">
 											<i class="far fa-comment"></i> 0 Comments</a>
 									</li>
 									

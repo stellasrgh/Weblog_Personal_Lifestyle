@@ -42,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <li class="breadcrumb-item">
             <a href="index.php">Home</a>
         </li>
-        <li class="breadcrumb-item active">Comment Page</li>
+        <li class="breadcrumb-item active">Like Page</li>
     </ol>
 
     <!--//banner-->
@@ -86,13 +86,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             aute irudre dolor in elit sed uta labore dolore reprehender</p>
                         <a href="single.html" class="btn btn-primary read-m">Read More</a>
                     </div> -->
-                    <?php include "huddle-p.php"?>
+                    <?php include "peter-p.php"?>
 
                     <div class="comment-top">
-                        <h4>Comments</h4>
+                        <h4>Like</h4>
                         <?php include "connection.php";
                         // comment adalah nama tabel di database
-                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM comment_huddle");
+                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM like_peter");
                         while ($c = mysqli_fetch_object($tampil_comment)) :
                         ?>
 
@@ -117,18 +117,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <?php endwhile ?>
                     </div>
                     <div class="comment-top">
-                        <h4>Leave a Comment</h4>
+                        <h4>Like us</h4>
                         <div class="comment-bottom">
-                            <form action="action_insert_comment_huddle.php" method="post" enctype="multipart/form-data">
+                            <form action="action_insert_like_p.php" method="post" enctype="multipart/form-data">
                                 <input class="form-control" type="text" name="name" placeholder="Name" required>
                                 <!-- fungsi REQUIRED adlh agar inputan di kolom harus diisi. Jika tdk maka akan muncul tulisan PLEASE FILL OUT THIS FILED -->
                                 <!-- REQUIRED boleh pakai ="" atau cukup REQUIRED saja -->
-                                <input class="form-control" type="email" name="email" placeholder="Email" required="">
-
-                                <input class="form-control" type="text" name="subject" placeholder="Subject" required="">
-
-                                <textarea class="form-control" name="message" placeholder="Message..." required=""></textarea>
-                                <input type="file" class="form-control" name="photo" placeholder="Photo..." required="">
+                               
                                 <button type="submit" class="btn btn-primary submit mt-3">Submit</button>
                             </form>
                         </div>

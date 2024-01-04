@@ -1,8 +1,8 @@
 <div class="blog-grid-top">
     <div class="b-grid-top">
         <div class="blog_info_left_grid">
-            <a href="peter.php">
-                <img src="images/Peter1.jpg" class="img-fluid" alt="">
+            <a href="huddle.php">
+                <img src="images/Office1.jpeg" class="img-fluid" alt="">
             </a>
         </div>
         <div class="blog-info-middle">

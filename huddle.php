@@ -53,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="row">
 				<!--left-->
 				<div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
-					<div class="blog-grid-top">
+					<!-- <div class="blog-grid-top">
 						<div class="b-grid-top">
 							<div class="blog_info_left_grid">
 								<a href="huddle.php">
@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<i class="far fa-thumbs-up"></i> 0 Likes</a>
 									</li>
 									<li>
-										<a href="#">
+										<a href="form_comment_huddle.php">
 											<i class="far fa-comment"></i> 0 Comments</a>
 									</li>
 									
@@ -83,8 +83,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<a href="huddle.php">Amet consectetur adipisicing </a>
 						</h3>
 						<p>Last huddle, last team engagement, a farewell for me.</p>
-						<!-- <a href="single.html" class="btn btn-primary read-m">Read More</a> -->
-					</div>
+						<a href="single.html" class="btn btn-primary read-m">Read More</a>
+					</div> -->
+					<?php include "huddle-p.php"?>
 
 					<!-- <div class="comment-top">
 						<h4>Comments</h4>

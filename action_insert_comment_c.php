@@ -22,8 +22,8 @@ $path="foto_komen/";
 // untuk meng upload foto digunakan fungsi move_uploaded_file
 move_uploaded_file($_FILES['photo']['tmp_name'], $path . $vnamaimage);
 
-$sql_insert = mysqli_query($koneksi,"INSERT INTO comment_huddle(name,email,subject,message, photo) 
+$sql_insert = mysqli_query($koneksi,"INSERT INTO comment_cafe(name,email,subject,message, photo) 
 values ('$vnama','$email','$vsubject','$vmessage', '$vnamaimage')");
 
 // header location untuk mengarahkan halaman ke tabel_profile
-header("Location:form_comment_huddle.php");
+header("Location:form_comment_cafe.php");
