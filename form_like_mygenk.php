@@ -86,20 +86,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             aute irudre dolor in elit sed uta labore dolore reprehender</p>
                         <a href="single.html" class="btn btn-primary read-m">Read More</a>
                     </div> -->
-                    <?php include "mygenk-p.php"?>
+                    <?php include "mygenk-p.php" ?>
 
                     <div class="comment-top">
-                        <h4>Like</h4>
+                        <div class="comment-top">
+                            <h4>Like us</h4>
+                            <div class="comment-bottom">
+                                <form action="action_insert_like_m.php" method="post" enctype="multipart/form-data">
+                                    <input class="form-control" type="text" name="name" placeholder="Name" required>
+                                    <!-- fungsi REQUIRED adlh agar inputan di kolom harus diisi. Jika tdk maka akan muncul tulisan PLEASE FILL OUT THIS FILED -->
+                                    <!-- REQUIRED boleh pakai ="" atau cukup REQUIRED saja -->
+
+                                    <button type="submit" class="btn btn-primary submit mt-3">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                        <h4 class="mt-3">Like</h4>
                         <?php include "connection.php";
                         // comment adalah nama tabel di database
-                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM like_mygenk");
+                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM like_mygenk LIMIT 7");
                         while ($c = mysqli_fetch_object($tampil_comment)) :
                         ?>
 
-                            <div class="media">
+                            <p > <?php echo $c->name ?></p>
+                            <!-- <div class="media">
                                 <img src="foto_komen/<?php echo $c->photo ?>" alt="" class="img-fluid" width="90px" style="height: 90px;" />
                                 <div class="media-body">
-                                    <h5 class="mt-0"> <?php echo $c->name ?></h5>
                                     <p> <?php echo $c->message ?></p>
                                     <div class="media mt-3">
                                         <a class="d-flex pr-3" href="#">
@@ -109,30 +121,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <h5 class="mt-0">Richard Spark</h5>
                                             <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac cursus eros.
                                                 Cras a ornare elit.</p>
-                                            <!-- reply message -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endwhile ?>
-                    </div>
-                    <div class="comment-top">
-                        <h4>Like us</h4>
-                        <div class="comment-bottom">
-                            <form action="action_insert_like_m.php" method="post" enctype="multipart/form-data">
-                                <input class="form-control" type="text" name="name" placeholder="Name" required>
-                                <!-- fungsi REQUIRED adlh agar inputan di kolom harus diisi. Jika tdk maka akan muncul tulisan PLEASE FILL OUT THIS FILED -->
-                                <!-- REQUIRED boleh pakai ="" atau cukup REQUIRED saja -->
-                               
-                                <button type="submit" class="btn btn-primary submit mt-3">Submit</button>
-                            </form>
-                        </div>
+                                            reply message -->
                     </div>
                 </div>
+            </div>
+        </div>
+    <?php endwhile ?>
+    </div>
 
-                <!--//left-->
-                <!--right-->
-                <!-- <aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
+    </div>
+
+    <!--//left-->
+    <!--right-->
+    <!-- <aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
 					<div class="right-blog-info text-left">
 						<div class="tech-btm">
 							<img src="images/banner1.jpg" class="img-fluid" alt="">
@@ -245,9 +246,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 
 				</aside> -->
-                <!--//right-->
-            </div>
-        </div>
+    <!--//right-->
+    </div>
+    </div>
     </section>
     <!--//main-->
 

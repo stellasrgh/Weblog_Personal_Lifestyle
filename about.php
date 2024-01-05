@@ -30,6 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="css/fontawesome-all.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
 	    rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -80,7 +81,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="card-body">
 								<h5 class="card-title"> About What to Eat & to Drink </h5>
 								<p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor incididunt.. </p>
-								<a href="eat_drink.php" class="btn btn-primary read-m">Read More</a>
+								<a href="to_eat_drink.php" class="btn btn-primary read-m">Read More</a>
 							</div>
 						</div>
 						<div class="col-md-6 card mt-3">
@@ -92,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="col-md-6 card mt-3">
-							<img class="card-img-top" src="images/2.jpg" alt="Card-image">
+							<img class="card-img-top" src="images/PJ_Palms_coatches.jpg" alt="Card-image" style="height: 300px; object-fit:cover;">
 							<div class="card-body">
 								<h5 class="card-title"> About what to Workout </h5>
 								<p class="card-text mb-3"> I passed the hardest moment alone, while everyone thought I was fine. </p>
@@ -100,11 +101,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="col-md-6 card mt-3">
-							<img class="card-img-top" src="images/3.jpg" alt="Card-image">
+							<img class="card-img-top" src="images/me_groceryshop.jpg" alt="Card-image" style="height:300px; object-fit:cover">
 							<div class="card-body">
 								<h5 class="card-title"> About "me-time" </h5>
 								<p class="card-text mb-3"> What if....everything I am going through is preparing me for what I asked for? </p>
-								<a href="me-time.php" class="btn btn-primary read-m">Read More</a>
+								<a href="to_me-time.php" class="btn btn-primary read-m">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -114,22 +115,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
 					<div class="right-blog-info text-left">
 						<div class="tech-btm">
-							<img src="images/banner1.jpg" class="img-fluid" alt="">
+							<img src="images/iklangif2.gif" class="img-fluid" alt="">
 						</div>
 						<div class="tech-btm">
-							<h4>Sign up to our newsletter</h4>
-							<p>Pellentesque dui, non felis. Maecenas male </p>
-							<form action="#" method="post">
+							<h4><i>Place your Advertisment here</i></h4>
+							<p>Contact us at <br><a href="https://wa.me/60165852841"> <i class="bi bi-whatsapp"></i> +60165852841</a><br>
+							<a class="button">  <i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a></p>
+							<!-- <form action="#" method="post">
 								<input type="email" placeholder="Email" required="">
 								<input type="submit" value="Subscribe">
-							</form>
+							</form> -->
 
 						</div>
 						<div class="tech-btm widget_social">
 							<h4>Stay Connect</h4>
 							<ul>
+							<li>
+									<a class="facebook" href="https://www.facebook.com/ceztar.2023" target="_blank">
+										<i class="fab fa-facebook-f"></i>
+										<span class="count"></span> Facebook </a>
+								</li>
 
-								<li>
+								<!-- <li>
 									<a class="twitter" href="#">
 										<i class="fab fa-twitter"></i>
 										<span class="count">317K</span> Twitter Followers</a>
@@ -149,13 +156,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a class="pin" href="#">
 										<i class="fab fa-pinterest"></i>
 										<span class="count">190k</span> Pinterest Followers</a>
-								</li>
+								</li> -->
 
 							</ul>
 						</div>
 						<div class="single-gd my-5 tech-btm">
-							<h4>Our Progress</h4>
-							<div class="progress">
+							<h4>Our Offers</h4>
+							<div class="tech-btm">
+							<img src="images/iklangif3.gif" class="img-fluid" alt="">
+						</div>
+							<!-- <div class="progress">
 								<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0"
 								    aria-valuemax="100"></div>
 							</div>
@@ -174,7 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="progress">
 								<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
 								    aria-valuemax="100"></div>
-							</div>
+							</div> -->
 						</div>
 				<?php include "recent.php"?>
 					

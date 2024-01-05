@@ -76,6 +76,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			background-size: cover;
 		}
 	</style>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -112,7 +114,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span>you desire</span>
 						</h3>
 						<div class="read">
-							<a href="single.html" class="btn btn-primary read-m">Read More</a>
+							<a href="about.php" class="btn btn-primary read-m">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -122,7 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span>and Creative</span>
 						</h3>
 						<div class="read">
-							<a href="single.html" class="btn btn-primary read-m">Read More</a>
+							<a href="blog1.php" class="btn btn-primary read-m">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -132,7 +134,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span>you desire</span>
 						</h3>
 						<div class="read">
-							<a href="single.html" class="btn btn-primary read-m">Read More</a>
+							<a href="blog2.php" class="btn btn-primary read-m">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -142,7 +144,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span>and Creative</span>
 						</h3>
 						<div class="read">
-							<a href="single.html" class="btn btn-primary read-m">Read More</a>
+							<a href="blog3.php" class="btn btn-primary read-m">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -501,12 +503,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 
 						<h3>
-							<a href="single.html">Amet consectetur adipisicing </a>
+							<a href="read_more_kl.php">Kuala Lumpur, Malaysia </a>
 						</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor incididunt ut labore et dolore magna
-							aliqua uta enim ad minim ven iam quis nostrud exercitation ullamco labor nisi ut aliquip exea commodo consequat duis
-							aute irudre dolor in elit sed uta labore dolore reprehender</p>
-						<a href="single.html" class="btn btn-primary read-m">Read More</a>
+						<p>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+						<a href="read_more_kl.php" class="btn btn-primary read-m">Read More</a>
 					</div>
 					<!--//silder-->
 					<div class="blog-mid-sec">
@@ -842,32 +842,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
 					<div class="right-blog-info text-left">
 						<div class="tech-btm">
-							<img src="images/banner1.jpg" class="img-fluid" alt="">
+							<img src="images/iklangif6.gif" class="img-fluid" alt="">
 						</div>
 						<div class="tech-btm">
-							<h4>Sign up to our newsletter</h4>
-							<p>Pellentesque dui, non felis. Maecenas male </p>
-							<form action="#" method="post">
+							<h4> Advertise your Product here</h4>
+							<p>Contact us at <br><a href="https://wa.me/60165852841"> <i class="bi bi-whatsapp"></i> +60165852841</a><br>
+							<a class="button"><i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a> </p>
+							<!-- <form action="#" method="post">
 								<input type="email" placeholder="Email" required="">
 								<input type="submit" value="Subscribe">
-							</form>
+							</form> -->
 
 						</div>
 						<div class="tech-btm widget_social">
 							<h4>Stay Connect</h4>
 							<ul>
 
-								<li>
+								<!-- <li>
 									<a class="twitter" href="#">
 										<i class="fab fa-twitter"></i>
 										<span class="count">317K</span> Twitter Followers</a>
-								</li>
+								</li> -->
 								<li>
-									<a class="facebook" href="#">
+									<a class="facebook" href="https://www.facebook.com/ceztar.2023" target="_blank">
 										<i class="fab fa-facebook-f"></i>
-										<span class="count">218k</span> Twitter Followers</a>
+										<span class="count"></span> Facebook </a>
 								</li>
-								<li>
+								<!-- <li>
 									<a class="dribble" href="#">
 										<i class="fab fa-dribbble"></i>
 
@@ -877,7 +878,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a class="pin" href="#">
 										<i class="fab fa-pinterest"></i>
 										<span class="count">190k</span> Pinterest Followers</a>
-								</li>
+								</li> -->
 
 							</ul>
 						</div>
@@ -991,12 +992,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 
 						<h3>
-							<a href="single.html">Amet consectetur adipisicing </a>
+							<a href="read_more_satu.php">Amet consectetur adipisicing </a>
 						</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor incididunt ut labore et dolore magna
 							aliqua uta enim ad minim ven iam quis nostrud exercitation ullamco labor nisi ut aliquip exea commodo consequat duis
 							aute irudre dolor in elit sed uta labore dolore reprehender</p>
-						<a href="single.html" class="btn btn-primary read-m">Read More</a>
+						<a href="read_more_satu.php" class="btn btn-primary read-m">Read More</a>
 					</div>
 					<!--//silder-->
 

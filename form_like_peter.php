@@ -92,7 +92,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <h4>Like</h4>
                         <?php include "connection.php";
                         // comment adalah nama tabel di database
-                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM like_peter");
+                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM like_peter LIMIT 7");
                         while ($c = mysqli_fetch_object($tampil_comment)) :
                         ?>
 

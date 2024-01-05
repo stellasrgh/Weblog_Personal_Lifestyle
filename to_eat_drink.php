@@ -30,7 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="css/fontawesome-all.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
 	    rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -51,17 +51,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--/main-->
 	<section class="main-content-w3layouts-agileits">
 		<div class="container">
-			<h3 class="tittle">Healthy is Wealthy</h3>
+			<h3 class="tittle">About</h3>
 			<div class="row inner-sec">
 				<!--left-->
 				<div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
 					
 					<div class="row">
-						<div class=" card">
-							<img class="card-img-top" src="images/PJ_Palms_coatches.jpg" alt="Card-image" style="height: 70%; object-fit: cover;">
+						<div class=" card ">
+							<img class="card-img-top" src="images/Nasikuning.jpg" alt="Card-image" style="height: 70%; object-fit: cover;">
 							<div class="card-body">
-								<h5 class="card-title"> About What to Workout </h5>
-								<p class="card-text mb-3">I passed the hardest moment alone, while everyone thought I was fine. </p>
+								<h5 class="card-title"> About What to Eat & to Drink </h5>
+								<p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor incididunt.. </p>
 								<!-- <a href="eat_drink.php" class="btn btn-primary read-m">Read More</a> -->
 							</div>
 						</div>
@@ -75,33 +75,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
 					<div class="right-blog-info text-left">
 						<div class="tech-btm">
-							<img src="images/iklangif11.jpg" class="img-fluid" alt="">
+							<img src="images/banner1.jpg" class="img-fluid" alt="">
 						</div>
 						<div class="tech-btm">
-							<h4>Advertise your Skill</h4>
-							<p>Contact us at <br><a href="https://wa.me/60165852841"> <i class="bi bi-whatsapp"></i> +60165852841</a><br>
-							<a class="button">  <i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a> </p>
-							<!-- <form action="#" method="post">
+							<h4>Sign up to our newsletter</h4>
+							<p>Pellentesque dui, non felis. Maecenas male </p>
+							<form action="#" method="post">
 								<input type="email" placeholder="Email" required="">
 								<input type="submit" value="Subscribe">
-							</form> -->
+							</form>
 
 						</div>
 						<div class="tech-btm widget_social">
 							<h4>Stay Connect</h4>
 							<ul>
 
-								<!-- <li>
+								<li>
 									<a class="twitter" href="#">
 										<i class="fab fa-twitter"></i>
 										<span class="count">317K</span> Twitter Followers</a>
-								</li> -->
-								<li>
-									<a class="facebook" href="https://www.facebook.com/ceztar.2023" target="_blank">
-										<i class="fab fa-facebook-f"></i>
-										<span class="count"></span> Facebook</a>
 								</li>
-								<!-- <li>
+								<li>
+									<a class="facebook" href="#">
+										<i class="fab fa-facebook-f"></i>
+										<span class="count">218k</span> Twitter Followers</a>
+								</li>
+								<li>
 									<a class="dribble" href="#">
 										<i class="fab fa-dribbble"></i>
 
@@ -111,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a class="pin" href="#">
 										<i class="fab fa-pinterest"></i>
 										<span class="count">190k</span> Pinterest Followers</a>
-								</li> -->
+								</li>
 
 							</ul>
 						</div>

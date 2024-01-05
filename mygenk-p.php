@@ -13,7 +13,12 @@
                 </li>
                 <li class="mx-2">
                     <a href="form_like_mygenk.php">
-                        <i class="far fa-thumbs-up"></i> 0 Likes</a>
+                    <?php include "connection.php";
+                        // comment adalah nama tabel di database
+                        $tampil_comment = mysqli_query($koneksi, "SELECT*FROM like_mygenk");
+                        $like = mysqli_num_rows($tampil_comment);
+                        ?>
+                        <i class="far fa-thumbs-up"></i> <?php echo $like?> Likes</a>
                 </li>
                 <li>
                     <a href="form_comment_mygenk.php">

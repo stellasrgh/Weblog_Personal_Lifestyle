@@ -30,6 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="css/fontawesome-all.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
 	    rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -56,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
 					
 					<div class="row">
-						<div class=" card mt-3">
+						<div class=" card ">
 							<img class="card-img-top" src="images/suitcase.jpg" alt="Card-image" style="height: 100%; object-fit: cover;">
 							<div class="card-body">
 								<h5 class="card-title"> About Where to Go </h5>

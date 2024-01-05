@@ -51,17 +51,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--/main-->
 	<section class="main-content-w3layouts-agileits">
 		<div class="container">
-			<h3 class="tittle">Healthy is Wealthy</h3>
+			<h3 class="tittle">About Life itself</h3>
 			<div class="row inner-sec">
 				<!--left-->
 				<div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
 					
 					<div class="row">
-						<div class=" card">
-							<img class="card-img-top" src="images/PJ_Palms_coatches.jpg" alt="Card-image" style="height: 70%; object-fit: cover;">
+						<div class=" card ">
+							<img class="card-img-top" src="images/Nasikuning.jpg" alt="Card-image" style="height: 100%; object-fit: cover;">
 							<div class="card-body">
-								<h5 class="card-title"> About What to Workout </h5>
-								<p class="card-text mb-3">I passed the hardest moment alone, while everyone thought I was fine. </p>
+								<h5 class="card-title"> About What to Eat & to Drink </h5>
+								<p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor incididunt.. </p>
 								<!-- <a href="eat_drink.php" class="btn btn-primary read-m">Read More</a> -->
 							</div>
 						</div>
@@ -75,10 +75,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
 					<div class="right-blog-info text-left">
 						<div class="tech-btm">
-							<img src="images/iklangif11.jpg" class="img-fluid" alt="">
+							<img src="images/banner1.jpg" class="img-fluid" alt="">
 						</div>
 						<div class="tech-btm">
-							<h4>Advertise your Skill</h4>
+							<h4>Your Ads here</h4>
 							<p>Contact us at <br><a href="https://wa.me/60165852841"> <i class="bi bi-whatsapp"></i> +60165852841</a><br>
 							<a class="button">  <i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a> </p>
 							<!-- <form action="#" method="post">

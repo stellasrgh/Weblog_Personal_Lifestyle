@@ -30,6 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="css/fontawesome-all.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
 	    rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -50,17 +51,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--/main-->
 	<section class="main-content-w3layouts-agileits">
 		<div class="container">
-			<h3 class="tittle">About</h3>
+			<h3 class="tittle">"Me-time" is merely about me and Spending the time</h3>
 			<div class="row inner-sec">
 				<!--left-->
 				<div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
 					
 					<div class="row">
-						<div class=" card mt-3">
-							<img class="card-img-top" src="images/Nasikuning.jpg" alt="Card-image" style="height: 100%; object-fit: cover;">
+						<div class=" card ">
+							<img class="card-img-top" src="images/me_groceryshop.jpg" alt="Card-image" style="height: 40%; object-fit: cover;">
 							<div class="card-body">
 								<h5 class="card-title"> About What to Eat & to Drink </h5>
-								<p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor incididunt.. </p>
+								<p class="card-text mb-3">What if....everything I am going through is preparing me for what I asked for? </p>
 								<!-- <a href="eat_drink.php" class="btn btn-primary read-m">Read More</a> -->
 							</div>
 						</div>

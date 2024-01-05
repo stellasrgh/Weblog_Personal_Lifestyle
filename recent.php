@@ -3,8 +3,8 @@
 
 							<div class="blog-grids row mb-3">
 								<div class="col-md-5 blog-grid-left">
-									<a href="single.html">
-										<img src="images/Jayanta1.png" class="img-fluid" alt="">
+									<a href="jayanta.php">
+										<img src="images/Jayanta1.png" class="img-fluid" alt="" style="height: 130px;width: 130px; object-fit:cover">
 									</a>
 								</div>
 								<div class="col-md-7 blog-grid-right">
@@ -21,8 +21,8 @@
 							</div>
 							<div class="blog-grids row mb-3">
 								<div class="col-md-5 blog-grid-left">
-									<a href="single.html">
-										<img src="images/Peter1.jpg" class="img-fluid" alt="">
+									<a href="peter.php">
+										<img src="images/Peter1.jpg" class="img-fluid" alt="" style="height: 130px;width: 130px; object-fit:cover">
 									</a>
 								</div>
 								<div class="col-md-7 blog-grid-right">
@@ -39,8 +39,8 @@
 							</div>
 							<div class="blog-grids row mb-3">
 								<div class="col-md-5 blog-grid-left">
-									<a href="single.html">
-										<img src="images/Exco1.jpeg" class="img-fluid" alt="">
+									<a href="mygenk.php">
+										<img src="images/Exco1.jpeg" class="img-fluid" alt="" >
 									</a>
 								</div>
 								<div class="col-md-7 blog-grid-right">
@@ -56,7 +56,7 @@
 							</div>
 							<div class="blog-grids row mb-3">
 								<div class="col-md-5 blog-grid-left">
-									<a href="single.html">
+									<a href="huddle.php">
 										<img src="images/Office1.jpeg" class="img-fluid" alt="">
 									</a>
 								</div>
@@ -74,8 +74,8 @@
 							</div>
 							<div class="blog-grids row mb-3">
 								<div class="col-md-5 blog-grid-left">
-									<a href="single.html">
-										<img src="images/Gcafe1.jpg" class="img-fluid" alt="">
+									<a href="cafe.php">
+										<img src="images/Gcafe1.jpg" class="img-fluid" alt=""style="height: 130px;width: 130px; object-fit:cover">
 									</a>
 								</div>
 								<div class="col-md-7 blog-grid-right">
@@ -92,8 +92,8 @@
 							</div>
 							<div class="blog-grids row mb-3">
 								<div class="col-md-5 blog-grid-left">
-									<a href="single.html">
-										<img src="images/Ganaa1.png" class="img-fluid" alt="">
+									<a href="ganaa.php">
+										<img src="images/Ganaa1.png" class="img-fluid" alt="" style="height: 130px;width: 130px; object-fit:cover">
 									</a>
 								</div>
 								<div class="col-md-7 blog-grid-right">

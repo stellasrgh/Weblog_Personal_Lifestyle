@@ -412,7 +412,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4>Stay Connect</h4>
 						<ul>
 
-							<li>
+						<li>
+									<a class="facebook" href="https://www.facebook.com/ceztar.2023" target="_blank">
+										<i class="fab fa-facebook-f"></i>
+										<span class="count"></span> Facebook </a>
+								</li>
+							<!-- <li>
 								<a class="twitter" href="#">
 									<i class="fab fa-twitter"></i>
 									<span class="count">317K</span> Twitter Followers</a>
@@ -432,7 +437,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<a class="pin" href="#">
 									<i class="fab fa-pinterest"></i>
 									<span class="count">190k</span> Pinterest Followers</a>
-							</li>
+							</li> -->
 
 						</ul>
 					</div>
