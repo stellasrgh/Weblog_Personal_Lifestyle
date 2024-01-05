@@ -16,7 +16,7 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
 	<script>
-		addEventListener("load", function () {
+		addEventListener("load", function() {
 			setTimeout(hideURLbar, 0);
 		}, false);
 
@@ -28,14 +28,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="css/single.css" rel='stylesheet' type='text/css' />
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<link href="css/fontawesome-all.css" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
-	    rel="stylesheet">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	
 </head>
 
 <body>
 	<!--Header-->
-<?php include "header.php" ?>
+	<?php include "header.php" ?>
 	<!--//header-->
 
 	<!--/banner-->
@@ -65,12 +65,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<!-- H3 dikasih id (JUDUL) untuk keperluan tombol SEE MORE agar tetap di bgn ID=JUDUL. Jgn lupa JUDUL ditambahkan di HREF=#JUDUL di bawah-->
 						<h3 id="judul">
 							"Don't downgrade your dream to your reality; upgrade your faith to match your destiny instead."
-							
-						</h3 >
+
+						</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor incididunt ut labore et dolore magna <span id="dots">....</span>
 							<span id="more">aliqua uta enim ad minim ven iam quis nostrud exercitation ullamco labor nisi ut aliquip exea commodo consequat duis
-							aute irudre dolor in elit sed uta labore dolore reprehender</span></p>
-							<!-- untuk membuat SEE MORE dibutuhkan javascript ONCLICK dan ID tombol untuk menjalankannya -->
+								aute irudre dolor in elit sed uta labore dolore reprehender</span>
+						</p>
+						<!-- untuk membuat SEE MORE dibutuhkan javascript ONCLICK dan ID tombol untuk menjalankannya -->
 						<!-- <a href="single.html" class="btn btn-primary read-m onclick=" onclick="myFunction()" id="myBtn">See More</a> -->
 						<a href="#judul" class="btn btn-primary read-m " onclick="myFunction()" id="myBtn">See More</a>
 						<!-- HREF di atas dikasih tambahan # agar tetap di halaman ABOUT (tdk pindah ke halaman lain) saat diklik-->
@@ -120,7 +121,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="tech-btm">
 							<h4><i>Place your Advertisment here</i></h4>
 							<p>Contact us at <br><a href="https://wa.me/60165852841"> <i class="bi bi-whatsapp"></i> +60165852841</a><br>
-							<a class="button">  <i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a></p>
+								<a class="button"> <i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a>
+							</p>
 							<!-- <form action="#" method="post">
 								<input type="email" placeholder="Email" required="">
 								<input type="submit" value="Subscribe">
@@ -130,18 +132,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="tech-btm widget_social">
 							<h4>Stay Connect</h4>
 							<ul>
-							<li>
+								<li>
 									<a class="facebook" href="https://www.facebook.com/ceztar.2023" target="_blank">
 										<i class="fab fa-facebook-f"></i>
 										<span class="count"></span> Facebook </a>
 								</li>
 
-								<!-- <li>
-									<a class="twitter" href="#">
-										<i class="fab fa-twitter"></i>
-										<span class="count">317K</span> Twitter Followers</a>
-								</li>
 								<li>
+									<a class="bg-light" href="https://www.youtube.com/@takdandan4260" style="color: red;">
+										<i class="fab fa-youtube"></i>
+										<span class="count"></span>YouTube
+									</a>
+								</li>
+								<!-- <li>
 									<a class="facebook" href="#">
 										<i class="fab fa-facebook-f"></i>
 										<span class="count">218k</span> Twitter Followers</a>
@@ -163,8 +166,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="single-gd my-5 tech-btm">
 							<h4>Our Offers</h4>
 							<div class="tech-btm">
-							<img src="images/iklangif3.gif" class="img-fluid" alt="">
-						</div>
+								<img src="images/iklangif3.gif" class="img-fluid" alt="">
+							</div>
 							<!-- <div class="progress">
 								<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0"
 								    aria-valuemax="100"></div>
@@ -186,8 +189,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								    aria-valuemax="100"></div>
 							</div> -->
 						</div>
-				<?php include "recent.php"?>
-					
+						<?php include "recent.php" ?>
+
 					</div>
 
 				</aside>
@@ -198,7 +201,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--//main-->
 
 	<!--footer start-->
-<?php include "footer.php"?>
+	<?php include "footer.php" ?>
 	<!--footer end-->
 	<!-- js -->
 	<script src="js/jquery-2.2.3.min.js"></script>
@@ -207,8 +210,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/move-top.js"></script>
 	<script src="js/easing.js"></script>
 	<script>
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event) {
 				event.preventDefault();
 				$('html,body').animate({
 					scrollTop: $(this.hash).offset().top
@@ -219,7 +222,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--// end-smoth-scrolling -->
 
 	<script>
-		$(document).ready(function () {
+		$(document).ready(function() {
 			/*
 									var defaults = {
 							  			containerID: 'toTop', // fading element id
@@ -241,30 +244,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!-- //Custom-JavaScript-File-Links -->
 	<script src="js/bootstrap.js"></script>
-<style>
-	#more{
-		display: none;
-	}
-</style>
-
-<script>
-	function myFunction(){
-		var dots = document.getElementById("dots");
-		var moreText = document.getElementById("more");
-		var btnText = document.getElementById("myBtn");
-		// jika statement (property) dots.style.display === "none" maka perintah di dlm IF (property=value) dijalankan. 
-
-		if (dots.style.display === "none") {
-			dots.style.display = "inline";
-			btnText.innerHTML = "Read more";
-			moreText.style.display = "none";
-		} else {
-			dots.style.display = "none";
-			btnText.innerHTML = "Read less";
-			moreText.style.display = "inline";
+	<style>
+		#more {
+			display: none;
 		}
-	}
-</script>
+	</style>
+
+	<script>
+		function myFunction() {
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("myBtn");
+			// jika statement (property) dots.style.display === "none" maka perintah di dlm IF (property=value) dijalankan. 
+
+			if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "Read more";
+				moreText.style.display = "none";
+			} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "Read less";
+				moreText.style.display = "inline";
+			}
+		}
+	</script>
 </body>
 
 </html>

@@ -70,7 +70,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="col-md-8 address-right text-left">
 								<h6>Address</h6>
-								<p> California, USA
+								<p> Special Region of Yogyakarta
 
 								</p>
 							</div>
@@ -84,8 +84,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="col-md-8 address-right text-left">
 								<h6>Email</h6>
-								<p>Email :
-									<a href="mailto:example@email.com"> mail@example.com</a>
+								<p>
+									<a class="button">  <i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a>
 
 								</p>
 							</div>
@@ -99,7 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="col-md-8 address-right text-left">
 								<h6>Phone</h6>
-								<p>+1 234 567 8901</p>
+								<p> <a href="https://wa.me/60165852841"><i class="bi bi-whatsapp"></i> +60165852841</a></p>
 
 							</div>
 
@@ -110,26 +110,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="container">
 			<div class="contact_grid_right">
-				<form action="#" method="post">
+				<form action="action_insert_message.php" method="post">
 					<div class="row contact_left_grid">
 						<div class="col-md-6 con-left">
 							<div class="form-group">
 								<label for="validationCustom01 my-2">Name</label>
-								<input class="form-control" type="text" name="Name" placeholder="" required="">
+								<input class="form-control" type="text" name="name" placeholder="" required="">
 							</div>
 							<div class="form-group">
 								<label for="exampleFormControlInput1">Email</label>
-								<input class="form-control" type="email" name="Email" placeholder="" required="">
+								<input class="form-control" type="email" name="email" placeholder="" required="">
 							</div>
 							<div class="form-group">
 								<label for="validationCustom03 my-2">Subject</label>
-								<input class="form-control" type="text" name="Subject" placeholder="" required="">
+								<input class="form-control" type="text" name="subject" placeholder="" required="">
 							</div>
 						</div>
 						<div class="col-md-6 con-right">
 							<div class="form-group">
 								<label for="textarea">Message</label>
-								<textarea id="textarea" placeholder=""></textarea>
+
+								<textarea id="textarea" placeholder="" name="message"></textarea>
 							</div>
 							<input class="form-control" type="submit" value="Submit">
 

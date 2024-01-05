@@ -91,15 +91,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h4>Stay Connect</h4>
 							<ul>
 
-								<!-- <li>
-									<a class="twitter" href="#">
-										<i class="fab fa-twitter"></i>
-										<span class="count">317K</span> Twitter Followers</a>
-								</li> -->
-								<li>
+                            <li>
 									<a class="facebook" href="https://www.facebook.com/ceztar.2023" target="_blank">
 										<i class="fab fa-facebook-f"></i>
-										<span class="count"></span> Facebook</a>
+										<span class="count"></span> Facebook </a>
+								</li>
+
+								<li>
+									<a class="bg-light" href="https://www.youtube.com/@takdandan4260" style="color: red;">
+										<i class="fab fa-youtube"></i>
+										<span class="count"></span>YouTube
+									</a>
 								</li>
 								<!-- <li>
 									<a class="dribble" href="#">

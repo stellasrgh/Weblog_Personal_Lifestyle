@@ -3,36 +3,36 @@
 			<div class="row">
 				<div class="col-md-4 logo text-left">
 					<a class="navbar-brand" href="index.html">
-						<i class="fab fa-linode"></i> Weblog</a>
+						<i class="fab fa-stripe-s"></i> Weblog</a>
 				</div>
 				<div class="col-md-4 top-forms text-center mt-lg-3 mt-md-1 mt-0">
 					<span>Welcome Back!</span>
-					<span class="mx-lg-4 mx-md-2  mx-1">
+					<!-- <span class="mx-lg-4 mx-md-2  mx-1">
 						<a href="login.html">
 							<i class="fas fa-lock"></i> Sign In</a>
 					</span>
 					<span>
 						<a href="register.html">
 							<i class="far fa-user"></i> Register</a>
-					</span>
+					</span> -->
 				</div>
 				<div class="col-md-4 log-icons text-right">
 
 					<ul class="social_list1 mt-3">
 
 						<li>
-							<a href="#" class="facebook1 mx-2" >
+							<a href="https://www.facebook.com/ceztar.2023" target="_blank" class="facebook1 mx-2" >
 								<i class="fab fa-facebook-f"></i>
 
 							</a>
 						</li>
 						<li>
-							<a href="#" class="twitter2">
-								<i class="fab fa-twitter"></i>
+							<a href="https://www.youtube.com/@takdandan4260" target="_blank" class="twitter2 bg-light">
+								<i class="fab fa-youtube" style="color: red;"></i>
 
 							</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="#" class="dribble3 mx-2">
 								<i class="fab fa-dribbble"></i>
 							</a>
@@ -41,7 +41,7 @@
 							<a href="#" class="pin">
 								<i class="fab fa-pinterest-p"></i>
 							</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
 								    aria-expanded="false">
-									Ramai-Ramai
+									Domestic Trips
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<a class="dropdown-item" href="#"></a>
@@ -98,6 +98,21 @@
 									<a class="dropdown-item" href="tanger.php"> Tangerang</a>
 									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="sumut.php"> Sumatera Utara</a>
+
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+								    aria-expanded="false">
+									International Trips
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#"></a>
+									<a class="dropdown-item" href="inter_friend.php"> Friends Trip</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="inter_family.php"> Family Trip</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="inter_solo.php"> Solo Trip</a>
 
 								</div>
 							</li>

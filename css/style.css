@@ -123,7 +123,7 @@ ul {
 	color: #a0a1a5;
 	font-size: 0.9em;
 	font-weight: 500;
-	letter-spacing: 1px;
+	letter-spacing: 1px;xt
 }
 
 .log .fa-user.fa-w-16 {
@@ -1424,7 +1424,7 @@ a.facebook:hover {
 		margin: 2px 0px;
 	}
 	.blog-info-middle ul li a {
-		font-size: 0.8em;
+		font-size: 0.5em;
 		letter-spacing: 1px;
 	}
 	.blog-grid-top h3, .two-blog2 h3, h5.card-title {

@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		}
 	</style>
 
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -278,7 +278,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 						</div>
 					</div>
-				</li><li>
+				</li>
+				<li>
 					<div class="blog-item">
 						<img src="images/2.jpg" alt=" " class="img-fluid" style="height: 400px; object-fit:cover" />
 						<!-- ini adalah data-target="#baron" dari id="baron" dibawah -->
@@ -296,7 +297,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 						</div>
 					</div>
-				</li><li>
+				</li>
+				<li>
 					<div class="blog-item">
 						<img src="images/2.jpg" alt=" " class="img-fluid" style="height: 400px; object-fit:cover" />
 						<!-- ini adalah data-target="#baron" dari id="baron" dibawah -->
@@ -624,7 +626,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="modal-body">
 									<div class="embed-responsive embed-responsive-21by9">
-										<iframe allow="fullscreen;" src="https://www.youtube.com/embed/wW11XQ6zzsI?si=G-cU75vy8cFCSi3x" ></iframe>
+										<iframe allow="fullscreen;" src="https://www.youtube.com/embed/wW11XQ6zzsI?si=G-cU75vy8cFCSi3x"></iframe>
 									</div>
 								</div>
 
@@ -847,7 +849,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="tech-btm">
 							<h4> Advertise your Product here</h4>
 							<p>Contact us at <br><a href="https://wa.me/60165852841"> <i class="bi bi-whatsapp"></i> +60165852841</a><br>
-							<a class="button"><i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a> </p>
+								<a class="button"><i class="bi bi-envelope-at-fill"></i> saragih@kledok.com</a>
+							</p>
 							<!-- <form action="#" method="post">
 								<input type="email" placeholder="Email" required="">
 								<input type="submit" value="Subscribe">
@@ -858,15 +861,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h4>Stay Connect</h4>
 							<ul>
 
-								<!-- <li>
-									<a class="twitter" href="#">
-										<i class="fab fa-twitter"></i>
-										<span class="count">317K</span> Twitter Followers</a>
-								</li> -->
 								<li>
 									<a class="facebook" href="https://www.facebook.com/ceztar.2023" target="_blank">
 										<i class="fab fa-facebook-f"></i>
 										<span class="count"></span> Facebook </a>
+								</li>
+
+								<li>
+									<a class="bg-light" href="https://www.youtube.com/@takdandan4260" style="color: red;">
+										<i class="fab fa-youtube"></i>
+										<span class="count"></span>YouTube
+									</a>
 								</li>
 								<!-- <li>
 									<a class="dribble" href="#">
